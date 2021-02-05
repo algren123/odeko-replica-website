@@ -1,0 +1,39 @@
+.carousel-slider {
+  margin-top: 8vw;
+}
+
+.splide__arrow {
+  width: 5em;
+  height: 5em;
+}
+
+.splide__arrow svg {
+  width: 2em;
+  height: 2em;
+}
+
+.splide__track {
+  border-radius: 5%;
+  box-shadow: 1px 1px 36px 0 hsla(0, 0%, 75.7%, 1);
+  background-color: #fff;
+}
+
+.slider-img {
+  width: auto;
+  height: auto;
+}
+
+.splide__pagination__page {
+  width: 1em;
+  height: 1em;
+}
+
+.splide__pagination__page.is-active {
+  background: #414658;
+}
+
+@media screen and (max-width: 968px) {
+  .slider-img {
+    max-width: 450px;
+  }
+}

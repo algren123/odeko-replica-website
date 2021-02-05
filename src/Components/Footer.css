@@ -1,0 +1,88 @@
+.divider-black {
+  height: 2px;
+  margin-bottom: 20px;
+  background-color: #515151;
+}
+
+.footer {
+  background-color: #000000;
+  color: white;
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+.footer-title {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.social-buttons > svg {
+  margin: 5px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.social-buttons > svg:hover {
+  cursor: pointer;
+}
+
+.company-title,
+.resources-title,
+.sign-up-footer {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 1.8em;
+  margin-bottom: 1.8em;
+  cursor: default;
+}
+
+.company > h3,
+.resources > h3 {
+  font-size: 16px;
+  color: #a2a2a2;
+  font-weight: 400;
+  line-height: 2em;
+  cursor: pointer;
+}
+
+.sign-up-footer {
+  display: flex;
+  margin: 0;
+  cursor: pointer;
+}
+
+.sign-up-footer > svg {
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 35px;
+}
+
+.footer-menu {
+  margin-bottom: 40px;
+}
+
+.credits {
+  display: flex;
+  color: #a2a2a2;
+  text-align: center;
+  padding-bottom: 2vw;
+}
+
+.credits-corp {
+  cursor: default;
+}
+
+.privacy {
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  flex-direction: row;
+  margin-top: 12px;
+}
+
+.privacy > a {
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #a2a2a2;
+}

@@ -1,0 +1,70 @@
+.downloadapp {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.downloadapp-rightside {
+  padding-left: 20px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.downloadapp-img {
+  width: 75%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.downloadapp-right-img {
+  position: relative;
+  left: auto;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  display: inline-block;
+  width: 15%;
+  height: auto;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.downloadapp-header {
+  position: relative;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  float: right;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: bold;
+}
+
+.rightside-header {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.downloadapp-text {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding-left: 0;
+  color: #000;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.downloadapp-header {
+  display: flex;
+  margin-bottom: 20px;
+}
