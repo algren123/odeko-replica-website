@@ -20,7 +20,7 @@ function DownloadApp() {
                                 <h1 className="downloadapp-header">Download the Odeko App</h1>
                             </div>
                             <p className='downloadapp-text'>Order ahead and get rewarded. Your favorite cafés are now online and in the Odeko app so you can safely order and pay ahead of time.</p>
-                            <Button variant="contained" size="large" id="app-button">Get the App</Button>
+                            <Button variant="contained" size="large" id="downloadapp-button">Get the App</Button>
                         </div>
                     </Grid>
                 </Grid>

@@ -86,3 +86,19 @@
   text-decoration: none;
   color: #a2a2a2;
 }
+
+@media screen and (max-width: 968px) {
+  .footer {
+    padding-left: 20px;
+  }
+
+  .credits {
+    font-size: 8px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+  }
+
+  .divider-black {
+    margin-left: -40px;
+  }
+}

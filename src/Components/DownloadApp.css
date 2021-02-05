@@ -11,9 +11,9 @@
 }
 
 .downloadapp-img {
+  display: flex;
   width: 75%;
   max-width: 100%;
-  vertical-align: middle;
 }
 
 .downloadapp-right-img {
@@ -67,4 +67,28 @@
 .downloadapp-header {
   display: flex;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 968px) {
+  .downloadapp-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .downloadapp-right-img {
+    display: none;
+  }
+
+  .downloadapp-text {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #downloadapp-button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

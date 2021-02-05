@@ -52,3 +52,18 @@
 .form-leftside {
   margin-top: 50px;
 }
+
+@media screen and (max-width: 968px) {
+  .form-rightside {
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .email-contact {
+    font-size: 12px;
+    display: inline-block;
+    overflow: hidden;
+  }
+}

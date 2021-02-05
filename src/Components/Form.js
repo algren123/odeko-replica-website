@@ -26,8 +26,8 @@ function Form() {
                     <Grid item xs={12} sm={6}>
                         <div className="form-rightside">
                             <p className="email-contact">Need to contact support? Email us at <p className="email">support@odeko.com</p></p>
-                            <TextField style={{marginRight: "35px", width: "47%"}} variant="outlined" label="Full Name" margin="normal" required />
-                            <TextField style={{width: "47%"}} variant="outlined" label="Company Name" margin="normal" />
+                            <TextField style={{marginRight: "35px", width: "42%"}} variant="outlined" label="Full Name" margin="normal" required />
+                            <TextField style={{width: "42%"}} variant="outlined" label="Company Name" margin="normal" />
                             <TextField variant="outlined" label="Email" fullWidth margin="normal" required />
                             <TextField variant="outlined" label="Phone Number" fullWidth margin="normal" required/>
 
