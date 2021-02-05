@@ -51,12 +51,6 @@ h1 {
   color: #e11ea5;
 }
 
-.nav-menu,
-.nav-menu.active {
-  opacity: 1;
-  transition: all 0.5s ease;
-}
-
 @media screen and (max-width: 968px) {
   .menu-icon {
     display: block;
@@ -75,12 +69,16 @@ h1 {
     height: 90vh;
     position: absolute;
     top: 80px;
-    right: -100%;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
   }
 
   .nav-menu.active {
     background: #fff;
-    right: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
     z-index: 1;
   }
 }
